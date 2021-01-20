@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(214,255,209,1) 100%);
+    overflow-y: scroll;
+}
+
+.picture-small {
+    max-width: 320px;
+    max-height: 320px;
+    display: block;
+}
+
+.img-box > img {
+    margin: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+.background-fill {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(139, 136, 136, 0.7);
+}
+
+.background-fill * {
+    display: block;
+    margin: 1em auto;
+}
+
+.certificate { 
+    border: 1px solid gray;
+}
+
+.container {
+    width: 1000px;
+}
+
+.row-fluid {
+    margin-bottom: 1em;
+}
+
+.work-box {
+    padding-left: 2em;
+}
+
+.res-link {
+    font-size: 18px;
+    margin-right: .5em;
+}
+
+.res-link:hover {
+    cursor: pointer;
+}
+
+.link-text {
+    color: rgb(29, 85, 206);
+}
+
+.link-text:hover {
+    color: rgb(0, 53, 167);
+}
+
+.link-slides {
+    color: rgb(253, 135, 0);
+}
+
+.link-slides:hover {
+    color: rgb(196, 104, 0);
+}
+
+.link-pub {
+    color: rgb(0, 75, 52);
+}
+
+.link-pub:hover {
+    color: rgb(0, 46, 32);
+}
+
+.link-archive {
+    color: rgb(53, 53, 53);
+}
+
+.link-archive:hover {
+    color: rgb(32, 32, 32);
+}
