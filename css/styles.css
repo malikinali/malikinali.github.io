@@ -39,7 +39,13 @@ body {
 }
 
 .certificate { 
-    border: 1px solid gray;
+    border: .2px solid gray;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.certificate:hover {
+    transform: translateY(-5px);
 }
 
 .container {
