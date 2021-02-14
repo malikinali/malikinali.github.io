@@ -5,6 +5,7 @@ const tabs = {
     works: 'contentWorks',
     studentWorks: 'contentStudentWorks',
     certificates: 'contentCertificates',
+    plans: 'contentPlans',
 }
 
 const displayStyle = {
